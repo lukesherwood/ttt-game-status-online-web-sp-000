@@ -41,5 +41,5 @@ end
 
 def winner?(board)
   if won?(board)
-    return won?(board)
+    return won?(board).to_s
   
