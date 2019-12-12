@@ -41,7 +41,7 @@ end
 
 def winner(board)
   if won?(board)
-    return won?(board).to_s
+    return won?(board)[1]
   end
 end
   
