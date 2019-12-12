@@ -33,3 +33,4 @@ def draw?(board)
   end
 end
 
+def over?(board)
