@@ -39,7 +39,7 @@ def over?(board)
   end
 end
 
-def winner?(board)
+def winner(board)
   if won?(board)
     return won?(board).to_s
   end
